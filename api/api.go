@@ -459,7 +459,7 @@ type CloudBackupGroupSchedCreateRequest struct {
 	Labels map[string]string
 	// CredentialUUID is cloud credential to be used with this schedule
 	CredentialUUID string
-	// Schedule is the frequence of backup
+	// Schedule is the frequency of backup
 	Schedule string
 	// MaxBackups are the maximum number of backups retained
 	// in cloud.Older backups are deleted
